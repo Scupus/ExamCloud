@@ -1,4 +1,6 @@
-public class DoubleArray extends Массивы{
+package Уроки1_6;
+
+public class DoubleArray {
     public static void main(String[] args) {
 //        int[][] hash = new int[7][16];
 //        int i, j, l = 0;

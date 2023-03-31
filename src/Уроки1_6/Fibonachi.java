@@ -1,4 +1,6 @@
-public class Fibonachi extends Массивы{
+package Уроки1_6;
+
+public class Fibonachi {
     public static int fibo(int n) {
         int first = 0;
         int second = 1;

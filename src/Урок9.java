@@ -1,0 +1,2 @@
+public class Урок9 {
+}

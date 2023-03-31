@@ -1,6 +1,6 @@
-import java.util.Arrays;
+package Уроки1_6;
 
-public class ArrayDemo1 extends Массивы{
+public class ArrayDemo1 {
     public static void main(String[] args) {
         String[] array = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"};
         for (String str : array) {
@@ -9,7 +9,8 @@ public class ArrayDemo1 extends Массивы{
         System.out.println();
         double[] doubleArray = {1.8, 6.23, 5.84, 3.0, 4.13, 5.36};
         for (double doub : doubleArray) {
-            System.out.println(doub);
+            System.out.print(doub + " ");
+            System.out.println();
         }
         int n = 1;
         while (n < 11) {

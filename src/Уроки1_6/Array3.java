@@ -1,4 +1,6 @@
-public class Array3 extends Массивы{
+package Уроки1_6;
+
+public class Array3 {
     public static void main(String[] args) {
         int[] testScores = {7, 6, 5, 2};
         for (int tret : testScores) {

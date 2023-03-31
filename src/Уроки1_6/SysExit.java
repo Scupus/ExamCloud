@@ -1,3 +1,5 @@
+package Уроки1_6;
+
 public class SysExit {
     public static void main(String[] args) {
         System.out.println("До возврата.");
