@@ -1,6 +1,8 @@
 package Урок7;
 
 
+import Урок10.StaticVars;
+
 import java.util.Arrays;
 
 import static Урок7.BubbleSorter.sort;
@@ -77,6 +79,7 @@ public class Main {
         System.out.print(Arrays.toString(arr6) + " => ");
         sort(arr6);
         System.out.println(Arrays.toString(arr6));
+        System.out.println(StaticVars.r);
     }
 }
 

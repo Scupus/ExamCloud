@@ -18,5 +18,6 @@ public class PhoneDemo {
         System.out.println(phone3.weight);
         phone1.receiveCall("Mother");
         phone2.receiveCall("Brother", "8-764-562-3489");
+        System.out.println(Phone.getCount());
     }
 }
