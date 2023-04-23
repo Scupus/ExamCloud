@@ -7,6 +7,8 @@ public class ShapeDemo {
         shapes[1] = new Circle("blue", 5, 2, 10);
         shapes[2] = new Rectangle("brown", 1, 2, 10,6);
         shapes[3] = new Rectangle("white", 3, 2, 8,2);
-
+        for (Shape shape:shapes) {
+            shape.draw();
+        }
     }
 }

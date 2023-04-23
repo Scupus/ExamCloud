@@ -49,7 +49,7 @@ public class Rectangle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("" + getX1() + ", точка 2 " + getY1() + ", точка 3 "
+        System.out.println("Рисуем прямоугольник, точка 1 " + getX1() + ", точка 2 " + getY1() + ", точка 3 "
                 + getX2() + ", точка 4 " + getY2());
     }
 }
