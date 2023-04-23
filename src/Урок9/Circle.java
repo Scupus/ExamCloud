@@ -1,6 +1,6 @@
 package Урок9;
 
-public abstract class Circle extends Shape {
+public class Circle extends Shape {
     int x, y, radius;
 
     public Circle(String color, int x, int y, int radius) {
@@ -10,6 +10,7 @@ public abstract class Circle extends Shape {
         this.radius = radius;
 
     }
+    //regionGetSetCircle
 
     public int getX() {
         return x;
@@ -33,5 +34,12 @@ public abstract class Circle extends Shape {
 
     public void setRadius(int radius) {
         this.radius = radius;
+    }
+    //endregionGetSetCircle
+
+    @Override
+    public void draw() {
+        System.out.println("Рисуем круг, цвет круга " + getColor() + ", координаты центра круга " + getX() + " " + getY() + ", радиус круга " + getRadius());
+
     }
 }

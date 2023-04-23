@@ -5,7 +5,7 @@ public class Student {
 
     double avgMark;
 
-    public Student(String firstName, String lastName, String group, double v) {
+    public Student(String firstName, String lastName, String group, double avgMark) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.group = group;

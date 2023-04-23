@@ -3,9 +3,9 @@ package Урок9;
 public class Main {
     public static void main(String[] args) {
         Student student = new Student("Ivan", "Pupkin",
-                "Trest", 3.4);
+                "Trest", 5.0);
         Aspirant aspirant = new Aspirant("Petr", "Mool",
-                "Treat", 7.2, "sigma");
+                "Treat", 6.0, "sigma");
         Box box = new Box(12, 5, 7);
         Box redBox = new ColorBox(3, 65, 12, "red");
         Box oldBox = new HeavyBox(12, 43, 12, 7.5);
